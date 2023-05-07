@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- HTML代码 -->
+<h1 >看图猜词</h1>
+<div id="question-display">
+    <!-- 修改img的src就可以了 -->
+    <img src="./WechatIMG1178.jpeg" alt="Question Image">
+    <p>我的问题：这个图是什么意思</p>
+  </div>
+  
+  <div id="answer-form" style="display: none;">
+    <form>
+      <label for="guess">你的答案：</label>
+      <input type="text" id="guess" name="guess">
+      <button type="submit">提交</button>
+    </form>
+  </div>
+  
+  <p id="result"></p>
+     
+        
+</body>
+<script>
